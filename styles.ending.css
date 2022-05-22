@@ -1,0 +1,21 @@
+
+body{
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background-image: url("https://images.hdqwalls.com/wallpapers/wizard-journey-0k.jpg");
+    background-size: cover;
+    top:-200px;
+    right:50px;
+    bottom:100px;
+    left:-20px;
+    }
+a{
+    text-align: middle;
+    margin-left:15cm;
+    margin-right: 35cm;
+    margin-top: 70cm;
+
+}
