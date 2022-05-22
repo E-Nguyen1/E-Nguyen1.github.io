@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <h1>
+        <b>WELCOME TO THE FOREST</b>
+    </h1>
+    <h2>
+        <pre> To find your wand, answer the following question:
+
+    If the user inputes "Beatrix" (without quotation marks), what will be the output?
+        </pre>
+    </h2>
+
+    <div class="questionBox">
+        <pre>
+            import java.util.Scanner;
+            public class HelloWizard {
+                public static void main(String[] args) {
+                    Scanner scnr = new Scanner(System.in);
+                    String userInput;
+
+                    System.out.println("Enter first name: ");
+                    userInput = scnr.nextLine();
+
+                    System.out.println();
+                    System.out.println("Welcome " + userInput + " " + "to the wizard world" + "!");
+                }
+            }
+        </pre>
+    </div>
+
+    <!--Answers-->
+    <div class="container">
+        <div id="myBtn" class="myBtn">A: Welcome to the wizard world!</div>
+        <div id="myBtn2" class="myBtn">B: WelcomeBeatrixto the wizard world!</div>
+        <div class="boxChoice"><a href="CorrectPage1.html">C: Welcome Beatrix to the wizard world!</a></div>
+    </div>
+        
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <pre><strong>              Incorrect :(
+
+            Please try again
+            </strong></pre>
+            <span class="closebtn"><button>Close</button></span>
+        </div>
+    </div>
+    
+    <!--javascript-->
+    <script src="main.js"></script>
+
+</body>
+</html>
