@@ -3,8 +3,8 @@ Question 1a - The garden (answer: A:Welcome Peter to the wizard world!)
 Question 1b - The forest (answer: C: Welcome Beatrix to the wizard world!)
 Question 2a - Library (answer: B: The cost will be 2 Doubloon coins.)
 Question 2b - Classroom 394 (answer: C: The cost will be 1 Doubloon coin.)
-Question 3a - Lost & Found room (answer: B: 36)
-Question 3b - Dormitory (answer: A:32)
+Question 3a - Lost & Found room (answer: B:5)
+Question 3b - Dormitory (answer: A:6)
 Question 4a - Dragon's Den (answer: A: The current highest house point is: 104!)
 Question 4b - Pixie Cottage (answer:B: The current highest house point is: 110!)
 */
@@ -108,7 +108,7 @@ import java.util.Scanner;
         }
     }
 
-//Question 3a - Lost & Found room (answer: B: 36)
+//Question 3a - Lost & Found room (answer: B:5)
 import java.util.Scanner;
 
     public class MagicPassword {
@@ -118,7 +118,7 @@ import java.util.Scanner;
             int numDigits;
             int i;
 
-            secretMessage = "KAS13SWER459ASSGOODLUCK36I47AYHDS358SDTG1H56D3S4D2F45G3H77D5S3F15D4S34GG8D6S342D3";
+            secretMessage = "KAS13SWER459ASSGOODLUCK";
 
             numDigits = 0;
             for (i = 0; i < secretMessage.length(); ++i) {
@@ -131,7 +131,7 @@ import java.util.Scanner;
         }
     }
 
-//Question 3b - Dormitory (answer: A:32)
+//Question 3b - Dormitory (answer: A:6)
 import java.util.Scanner;
 
     public class MagicPassword {
@@ -141,7 +141,7 @@ import java.util.Scanner;
             int numDigits;
             int i;
 
-            secretMessage = "HELLO13SWER459ASSGOODLUCK36I47AYHDS358SDTG1H56D3S4D2F4WELCOME3H77D5S3S34GG8D6S342D3";
+            secretMessage = "HELLO13SWER459ASSGOODLUCK3";
 
             numDigits = 0;
             for (i = 0; i < secretMessage.length(); ++i) {
