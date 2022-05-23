@@ -15,7 +15,6 @@ h1 {
 h2 {
     background-color: goldenrod;
     text-align: left;
-
     color: black;
     padding: 10px;
     margin: 10px 300px;
@@ -60,6 +59,7 @@ a {
     cursor: pointer;
 }
 
+/*image*/
 .indexImage {
     display: flex;
     align-items: center;
@@ -68,7 +68,6 @@ a {
 .image {
     position: relative;
     width: 400px;
-
 }
 .imageOverlay {
     display: block;
