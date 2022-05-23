@@ -7,34 +7,58 @@
 
 <body>
     <h1>
-        <b>2A</b>
+        <b>WELCOME TO CLASSROOM 394</b>
     </h1>
     <h2>
-        To pass to the next stage, answer the following question:
+        <pre> To find your textbooks, answer the following question:
+
+            If the user enters "1" (without quotation marks), what will be the output?
+        </pre>
     </h2>
 
     <div class="questionBox">
         <pre>
-            ***
-    
-    
-    
-            add question here 
+            import java.util.Scanner;
 
+            public class GalaxyLollypop {
+                public static void main(String[] args) {
+                    int galaxyLollypop;
+                    int doubloonCoins = 0;
+                    Scanner scnr = new Scanner(System.in);
 
+                    System.out.println("How many cartons of Hologram Jellybeans would you like: ");
+                    galaxyLollypop = scnr.nextInt();
 
-
-            ***
+                    if (galaxyLollypop == 1) { 
+                        doubloonCoins = 1;
+                    }
+                    else if (galaxyLollypop == 2) {
+                        doubloonCoins = 2;
+                    }
+                    else if (galaxyLollypop > 2) {
+                        System.out.println("Sorry, cannot buy more than 2 Galaxy Lollipops.");
+                    }
+                    
+                    if (galaxyLollypop > 0 && galaxyLollypop < 3) {
+                        if (galaxyLollypop == 1) {
+                            System.out.println("The cost will be " + doubloonCoins + " Doubloon coin.");
+                        }
+                        else {
+                            System.out.println("The cost will be " + doubloonCoins + " Doubloon coins.");
+                        }
+                    }
+                    
+                }
+            }
         </pre>
     </div>
 
     <!--Answers-->
     <div class="container">
-        <div id="myBtn" class="myBtn">Choice 2</div>
-        <div id="myBtn2" class="myBtn">Choice 3</div>
-        <div class="boxChoice"><a href="CorrectPage2.html">Choice 1</a></div>
+        <div id="myBtn" class="myBtn">Sorry, cannot buy more than 2 Galaxy Lollipops.</div>
+        <div id="myBtn2" class="myBtn">The cost will be 1 Doubloon coins.</div>
+        <div class="boxChoice"><a href="CorrectPage2.html">The cost will be 1 Doubloon coin.</a></div>
     </div>
-        
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
@@ -51,6 +75,5 @@
     <!--javascript-->
     <script src="main.js"></script>
 
-
-
-</BODY>
+</body>
+</html>

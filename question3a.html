@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <h1>
+        <b>WELCOME TO THE LOST & FOUND ROOM</b>
+    </h1>
+    <h2>
+        To find your school cloak, answer the following question:
+        What is the passcode?
+    </h2>
+
+    <div class="questionBox">
+        <pre>
+            import java.util.Scanner;
+
+            public class MagicPassword {
+                public static void main(String[] args) {
+                    Scanner scnr = new Scanner(System.in);
+                    String secretMessage;
+                    int numDigits;
+                    int i;
+
+                    secretMessage = "KAS13SWER459ASSGOODLUCK36I47AYHDS358SDTG1H56D3S4D2F45G3H77D5S3F15D4S34GG8D6S342D3";
+
+                    numDigits = 0;
+                    for (i = 0; i < secretMessage.length(); ++i) {
+                        if (Character.isDigit(secretMessage.charAt(i))) {
+                            numDigits += 1;
+                        }
+                    }
+
+                    System.out.println("The code passcode is: " + numDigits);
+                }
+            }
+        </pre>
+    </div>
+
+    <!--Answers-->
+    <div class="container">
+        <div id="myBtn" class="myBtn">A: 33</div>
+        <div class="boxChoice"><a href="CorrectPage3.html">B: 36</a></div>
+        <div id="myBtn2" class="myBtn">C: 38</div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <pre><strong>              Incorrect :(
+
+            Please try again
+            </strong></pre>
+            <span class="closebtn"><button>Close</button></span>
+        </div>
+    </div>
+    
+    <!--javascript-->
+    <script src="main.js"></script>
+
+</body>
+</html>
